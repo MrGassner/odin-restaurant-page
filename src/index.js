@@ -1,21 +1,39 @@
 import _ from 'lodash';
 import './style.css';
-import printMe from './print.js';
+import home from './home.js';
+import menu from './menu.js';
+import about from './about.js';
 
- function component() {
-   const element = document.createElement('div');
-   const btn = document.createElement('button');
+function createHeader() {
+  const header = document.createElement('header')
+  const logo = document.createElement('h1')
+  const nav = document.createElement('nav')
+  const btnHome = document.createElement('button')
+  const btnMenu = document.createElement('button')
+  const btnAbout = document.createElement('button')
 
-  // Lodash, now imported by this script
-   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-   element.classList.add('hello');
+  logo.innerHTML = "Odin's Restaurant"
+  btnHome.innerHTML = 'Home'
+  btnMenu.innerHTML = 'Menu'
+  btnAbout.innerHTML = 'About'
 
-   btn.innerHTML = 'Click me and check the console!';
-   btn.onclick = printMe;
+  btnHome.classList.add('home')
+  btnMenu.classList.add('menu')
+  btnAbout.classList.add('about')
 
-   element.appendChild(btn);
+  nav.appendChild(btnHome)
+  nav.appendChild(btnMenu)
+  nav.appendChild(btnAbout)
+  header.appendChild(logo)
+  header.appendChild(nav)
+  
+  return header
+}
 
-   return element;
- }
+document.body.appendChild(createHeader())
+document.body.appendChild(document.createElement('main'))
+document.querySelector('.home').addEventListener('click', () => home())
+document.querySelector('.menu').addEventListener('click', () => menu())
+document.querySelector('.about').addEventListener('click', () => about())
 
- document.body.appendChild(component());
+home()

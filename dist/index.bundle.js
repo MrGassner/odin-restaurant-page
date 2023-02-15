@@ -16,7 +16,7 @@
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \".hello {\\r\\n    color: red;\\r\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://odin-restaurant-page/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"/* page resets */\\r\\nhtml {\\r\\n    box-sizing: border-box;\\r\\n}\\r\\n\\r\\n*, *::after, *::before {\\r\\n    box-sizing: inherit;\\r\\n}\\r\\n\\r\\nbody {\\r\\n    margin: 0;\\r\\n    padding: 0;\\r\\n    display: grid;\\r\\n    grid-template-rows: 100px 1fr 80px;\\r\\n}\\r\\n\\r\\n/* header */\\r\\nheader {\\r\\n    background-color: #0f0f0f;\\r\\n    color: white;\\r\\n    display: flex;\\r\\n    padding: 0 50px;\\r\\n    align-items: center;\\r\\n    justify-content: space-around;\\r\\n    font-size: 1.2rem;\\r\\n}\\r\\n\\r\\nheader > nav {\\r\\n    display: flex;\\r\\n    gap: 50px;\\r\\n}\\r\\n\\r\\nnav > button {\\r\\n    background-color: #0f0f0f;\\r\\n    color: white;\\r\\n    outline: none;\\r\\n    border: none;\\r\\n    cursor: pointer;\\r\\n    font-size: 1.5rem;\\r\\n}\\r\\n\\r\\nnav > button:hover {\\r\\n    text-decoration: underline;\\r\\n    text-underline-offset: 10px;\\r\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://odin-restaurant-page/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -129,6 +129,28 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/about.js":
+/*!**********************!*\
+  !*** ./src/about.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ about)\n/* harmony export */ });\nfunction about() {\r\n    const main = document.querySelector('main')\r\n    const h1 = document.createElement('h1')\r\n\r\n    main.innerHTML = ''\r\n    h1.innerHTML = 'About test'\r\n\r\n    main.appendChild(h1)\r\n    document.body.appendChild(main)\r\n  }\n\n//# sourceURL=webpack://odin-restaurant-page/./src/about.js?");
+
+/***/ }),
+
+/***/ "./src/home.js":
+/*!*********************!*\
+  !*** ./src/home.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ home)\n/* harmony export */ });\nfunction home() {\r\n    const main = document.querySelector('main')\r\n    const h1 = document.createElement('h1')\r\n\r\n    main.innerHTML = ''\r\n    h1.innerHTML = 'Home test'\r\n\r\n    main.appendChild(h1)\r\n    document.body.appendChild(main)\r\n  }\n\n//# sourceURL=webpack://odin-restaurant-page/./src/home.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -136,18 +158,18 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _print_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./print.js */ \"./src/print.js\");\n\r\n\r\n\r\n\r\n function component() {\r\n   const element = document.createElement('div');\r\n   const btn = document.createElement('button');\r\n\r\n  // Lodash, now imported by this script\r\n   element.innerHTML = lodash__WEBPACK_IMPORTED_MODULE_0___default().join(['Hello', 'webpack'], ' ');\r\n   element.classList.add('hello');\r\n\r\n   btn.innerHTML = 'Click me and check the console!';\r\n   btn.onclick = _print_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"];\r\n\r\n   element.appendChild(btn);\r\n\r\n   return element;\r\n }\r\n\r\n document.body.appendChild(component());\n\n//# sourceURL=webpack://odin-restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home.js */ \"./src/home.js\");\n/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./menu.js */ \"./src/menu.js\");\n/* harmony import */ var _about_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./about.js */ \"./src/about.js\");\n\r\n\r\n\r\n\r\n\r\n\r\nfunction createHeader() {\r\n  const header = document.createElement('header')\r\n  const logo = document.createElement('h1')\r\n  const nav = document.createElement('nav')\r\n  const btnHome = document.createElement('button')\r\n  const btnMenu = document.createElement('button')\r\n  const btnAbout = document.createElement('button')\r\n\r\n  logo.innerHTML = \"Odin's Restaurant\"\r\n  btnHome.innerHTML = 'Home'\r\n  btnMenu.innerHTML = 'Menu'\r\n  btnAbout.innerHTML = 'About'\r\n\r\n  btnHome.classList.add('home')\r\n  btnMenu.classList.add('menu')\r\n  btnAbout.classList.add('about')\r\n\r\n  nav.appendChild(btnHome)\r\n  nav.appendChild(btnMenu)\r\n  nav.appendChild(btnAbout)\r\n  header.appendChild(logo)\r\n  header.appendChild(nav)\r\n  \r\n  return header\r\n}\r\n\r\ndocument.body.appendChild(createHeader())\r\ndocument.body.appendChild(document.createElement('main'))\r\ndocument.querySelector('.home').addEventListener('click', () => (0,_home_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])())\r\ndocument.querySelector('.menu').addEventListener('click', () => (0,_menu_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])())\r\ndocument.querySelector('.about').addEventListener('click', () => (0,_about_js__WEBPACK_IMPORTED_MODULE_4__[\"default\"])())\r\n\r\n;(0,_home_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])()\n\n//# sourceURL=webpack://odin-restaurant-page/./src/index.js?");
 
 /***/ }),
 
-/***/ "./src/print.js":
-/*!**********************!*\
-  !*** ./src/print.js ***!
-  \**********************/
+/***/ "./src/menu.js":
+/*!*********************!*\
+  !*** ./src/menu.js ***!
+  \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ printMe)\n/* harmony export */ });\nfunction printMe() {\r\n    console.log('I get called from print.js!');\r\n  }\n\n//# sourceURL=webpack://odin-restaurant-page/./src/print.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ menu)\n/* harmony export */ });\nfunction menu() {\r\n    const main = document.querySelector('main')\r\n    const h1 = document.createElement('h1')\r\n    \r\n    main.innerHTML = ''\r\n    h1.innerHTML = 'Menu test'\r\n\r\n    main.appendChild(h1)\r\n    document.body.appendChild(main)\r\n  }\n\n//# sourceURL=webpack://odin-restaurant-page/./src/menu.js?");
 
 /***/ })
 
