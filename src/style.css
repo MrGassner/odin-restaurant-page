@@ -93,14 +93,39 @@ nav > button:hover {
     }
 }
 
+@media (max-width: 400px) {
+    header {
+        font-size: 1rem;
+    }
+
+    header > h1 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    nav > button {
+        font-size: 1rem;
+    }
+}
 
 /* main home */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .container {
     display: flex;
-    margin: 10px auto;
+    margin: 10px;
     border: 5px solid black;
     padding: 5px;
     max-width: 1000px;
+}
+
+.container:hover {
+    background-image: url('./title-color.jpg');
 }
 
 .boatImg {
@@ -108,6 +133,7 @@ nav > button:hover {
 }
 
 .contentCont {
+    background-color: #0f0f0f;
     border: 5px solid black;
     border-left: none;
     width: 100%;
@@ -166,11 +192,16 @@ section {
     padding: 5px;
 }
 
+section:hover {
+    background-image: url('./title-color.jpg');
+}
+
 .odinImage {
     width: 100%;
 }
 
 .content {
+    background-color: #0f0f0f;
     display: flex;
     flex-direction: column;
     justify-content: center;
