@@ -93,7 +93,6 @@ nav > button:hover {
     }
 }
 
-
 /* main about*/
 section {
     display: grid;
@@ -142,6 +141,57 @@ section {
         grid-template-rows: 1fr 1fr;
     }
 }
+
+/* main menu */
+.menu > h1 {
+    margin: 5px;
+    font-size: 3rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.recipe{
+    text-align: center;
+    border: 5px solid black;
+}
+
+.recipe:hover {
+    cursor: pointer;
+    background-image: url('./title-color.jpg');
+    
+}
+
+.recipe > h2 {
+    font-size: 2rem;
+    background-color: black;
+    margin: 5px;
+    padding: 10px;
+}
+
+.recipe > img {
+    border: 5px solid black;
+    margin: 0 5px;
+}
+
+
+div > img {
+    width: 400px;
+}
+
 
 /* footer */
 footer {
