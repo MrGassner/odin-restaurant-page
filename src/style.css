@@ -4,6 +4,7 @@
     url('./Skranji-Regular.ttf');
 }
 
+
 /* page resets */
 html {
     box-sizing: border-box;
@@ -24,6 +25,7 @@ body {
     font-family: 'Skranji', cursive;
 }
 
+
 /* header */
 header {
     background-color: #0f0f0f;
@@ -36,9 +38,7 @@ header {
     padding: 0 50px;
     align-items: center;
     font-size: 1.2rem;
-    cursor: default;
-
-    
+    cursor: default; 
 }
 
 header > h1 {
@@ -93,6 +93,67 @@ nav > button:hover {
     }
 }
 
+
+/* main home */
+.container {
+    display: flex;
+    margin: 10px auto;
+    border: 5px solid black;
+    padding: 5px;
+    max-width: 1000px;
+}
+
+.boatImg {
+    border: 5px solid black;
+}
+
+.contentCont {
+    border: 5px solid black;
+    border-left: none;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.quote {
+    width: 90%;
+    font-size: 1.5rem;
+}
+
+.reservButton {
+    padding: .5em 1em;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: rgb(199, 199, 199);
+    font-weight: 700;
+}
+
+.reservButton:hover {
+    background-color: black;
+    color: rgb(199, 199, 199);;
+}
+
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+
+    .contentCont {
+        border-left: 5px solid black;
+        border-top: none;
+    }
+}
+
 /* main about*/
 section {
     display: grid;
@@ -134,13 +195,13 @@ section {
     margin: 0 auto;
 }
 
-
 @media (max-width: 800px) {
     section {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
     }
 }
+
 
 /* main menu */
 .menu > h1 {
@@ -187,13 +248,6 @@ section {
     margin: 0 5px;
 }
 
-
 div > img {
     width: 400px;
-}
-
-
-/* footer */
-footer {
-    background-color: #0f0f0f;
 }
