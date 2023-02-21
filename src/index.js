@@ -37,3 +37,5 @@ document.querySelector('.menu').addEventListener('click', () => menu())
 document.querySelector('.about').addEventListener('click', () => about())
 
 home()
+
+
